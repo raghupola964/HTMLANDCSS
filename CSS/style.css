@@ -1,0 +1,262 @@
+body {
+    background-color: rgb(153, 235, 231);
+   
+}
+
+h1 {
+
+    font-size: 50px; 
+    font-family: sans-serif;
+}
+
+#raghuImage{
+    height: 200px; 
+    width: 150px;
+}
+
+#fsdImage{
+    height: 500px; 
+    width: 700px;
+}
+
+
+
+.top-section{
+    background-color: rgb(210, 210, 221);
+}
+
+.bottom-section{
+    background-color: rgb(233, 179, 132);
+}
+
+div{
+    background-color: rgb(244, 187, 187);
+    width: fit-content;
+}
+
+.highlight{
+    font-weight: bold;
+}
+
+.para1{
+    background-color: rgb(70, 172, 216);
+}
+
+#para1{
+    background-color: whitesmoke;
+}
+/* CSS comments */
+
+.box{
+    background: yellow;
+    width:92px;
+
+    margin: 30px;
+    margin-left:300px;
+
+    border-width: 5px;
+    border-color: rgb(247, 139, 6);
+    border-style: double;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+.adam{
+    border-style: ridge;
+    border-color: blue;
+    border: blue solid 2px;
+}
+
+.marEx{
+    margin:50px;
+    border: 5px dashed rgb(142, 61, 137);
+
+}
+
+.padEx{
+    margin: 10px;
+    background: pink;
+    border-style: dotted;
+    padding:20px;
+}
+
+.bgImage{
+    background-image: url(../images/stevens.jpeg);
+    margin: 100px;
+    padding: 200px 80px;
+    
+    background-size: contain;
+    background-position: center;
+}
+
+.fontFamily{
+    margin: 10px;
+    /* line height is used to give space between the lines*/
+
+    line-height: 50px;
+    font-size: larger;
+    font-style: italic;
+    font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif"; 
+
+    font-weight: lighter;
+    text-align: center;
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    color:red;
+}
+
+a{
+    color:rgb(87, 98, 97);
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(116, 44, 56);
+}
+
+a:visited{
+    color: blueviolet !important;
+}
+
+a:focus{
+    color: green !important;
+}
+
+a:active{
+    color:blue;
+}
+
+p,h3{
+    color:rgb(162, 11, 39);
+}
+
+.bodyText
+{
+    background-color: rgb(78, 71, 85);
+}
+
+.bodyText p{
+    color:white;
+}
+
+.bodyText a:hover{
+    color: yellowgreen ;
+}
+
+.importantLink{
+    color:orangered
+}
+
+.listType{
+    list-style-type: disc;
+    background-color: beige;
+    padding: 50px;
+}
+
+.listType li{
+    background-color: blueviolet;
+    margin: 20px;
+}
+
+ul{
+    background-color: blanchedalmond;
+    padding: 50px;
+    
+}
+
+ul li{
+    background-color: blue;
+    margin: 20px;
+    color: white;
+    list-style-position: inside;
+}
+
+.floatImage{
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 20px;
+
+}
+
+.box1{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    
+}
+
+.box2{
+    background-color: rgb(112, 82, 42);
+    height: 200px;
+    width: 400px;
+    clear: both;
+
+    
+}
+
+.floatText{
+    background-color: beige;
+    clear: both;
+}
+
+.box3{
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    
+}
+.box4{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    
+}
+.box5{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    float: left;
+    
+}
+.box6{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    clear: left;
+    
+}
+.box7{
+    background-color: #0F1234;
+    height: 50px;
+    width: 50px;
+    
+}
+.box8{
+    background-color: hsl(30, 100%, 50%);
+    height: 50px;
+    width: 50px;
+    
+}
+.box9{
+    background: black;
+    height: 50px;
+    width: 50px;
+    
+}
+.box10{
+    background-color: rgb(61, 156, 149);
+    height: 50px;
+    width: 50px;
+    
+}
+
+.container{
+    background: white;
+    width: 70%;
+    margin: 0 auto;
+    max-width:800px;
+
+}
